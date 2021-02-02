@@ -1,5 +1,6 @@
 package apiEngine;
 
+import dataProvider.ConfigReader;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -18,6 +19,6 @@ public class UpdateEndPoints {
 	}
 	
 	public Response updatePet(int petId) {
-		return request.formParam("name", "Angel Fish").formParam("status", "sold").post(Route.updatePet(petId));
+		return request.formParam("name", ConfigReader.getInstance().getPetName()).formParam("status", ConfigReader.getInstance().getPetStatus()).post(Route.updatePet(petId));
 	}
 }

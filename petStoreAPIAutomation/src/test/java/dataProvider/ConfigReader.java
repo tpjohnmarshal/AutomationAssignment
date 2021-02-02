@@ -55,4 +55,28 @@ public class ConfigReader {
 		else
 			throw new RuntimeException("apiKey not specified in the Configuration.properties file.");
 	}
+	
+	public String getPetName() {
+		String petName = properties.getProperty("petName");
+		if (petName != null)
+			return petName;
+		else
+			throw new RuntimeException("Pet Name not specified in the Configuration.properties file.");
+	}
+	
+	public String getPetStatus() {
+		String petStatus = properties.getProperty("petStatus");
+		if (petStatus != null)
+			return petStatus;
+		else
+			throw new RuntimeException("Pet Status not specified in the Configuration.properties file.");
+	}
+	
+	public String getPetSearchStatus() {
+		String petSearchStatus = properties.getProperty("petSearchStatus");
+		if (petSearchStatus != null)
+			return petSearchStatus;
+		else
+			throw new RuntimeException("Pet Search Status not specified in the Configuration.properties file.");
+	}
 }

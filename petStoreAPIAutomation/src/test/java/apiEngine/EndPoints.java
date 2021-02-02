@@ -3,6 +3,7 @@ package apiEngine;
 
 import apiEngine.models.requests.AddPetRequest;
 import apiEngine.models.responses.Pets;
+import dataProvider.ConfigReader;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -24,7 +25,7 @@ public class EndPoints {
 	}
 
 	public IRestResponse<Pets> getPets() {
-		Response response = request.queryParam("status","available").get(Route.pets());
+		Response response = request.queryParam("status",ConfigReader.getInstance().getPetSearchStatus()).get(Route.pets());
 		return new RestResponse(Pets.class, response);
 	}
 	

@@ -6,3 +6,19 @@
 [main] INFO  stepDefinitions.BaseStep  - Not able to find the pet. Update Pet Unsuccessful
 [main] INFO  stepDefinitions.BaseStep  - Executing Delete Pet Test
 [main] INFO  stepDefinitions.BaseStep  - Not able to find the Pet
+[main] INFO  stepDefinitions.BaseStep  - Executing Search Availabe Pets Test
+[main] INFO  stepDefinitions.BaseStep  - Search Availabe Pet Test Verifified
+[main] INFO  stepDefinitions.BaseStep  - Executing Add Pet Test
+[main] INFO  stepDefinitions.BaseStep  - Add Pet Test Verifified
+[main] INFO  stepDefinitions.BaseStep  - Executing Update Pet Test
+[main] INFO  stepDefinitions.BaseStep  - Pet Updated Successfully
+[main] INFO  stepDefinitions.BaseStep  - Executing Delete Pet Test
+[main] INFO  stepDefinitions.BaseStep  - Pet Deleted Successfully
+[main] INFO  stepDefinitions.BaseStep  - Executing Search Availabe Pets Test
+[main] INFO  stepDefinitions.BaseStep  - Search Availabe Pet Test Verifified
+[main] INFO  stepDefinitions.BaseStep  - Executing Add Pet Test
+[main] INFO  stepDefinitions.BaseStep  - Add Pet Test Verifified
+[main] INFO  stepDefinitions.BaseStep  - Executing Update Pet Test
+[main] INFO  stepDefinitions.BaseStep  - Pet Updated Successfully
+[main] INFO  stepDefinitions.BaseStep  - Executing Delete Pet Test
+[main] INFO  stepDefinitions.BaseStep  - Pet Deleted Successfully
