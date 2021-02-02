@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "category": {
+    "id": 10,
+    "name": "Fish"
+  },
+  "name": "Gold Fish",
+  "photoUrls": [
+    "No Pics Available"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "Imported"
+    }
+  ],
+  "status": "available"
+}
