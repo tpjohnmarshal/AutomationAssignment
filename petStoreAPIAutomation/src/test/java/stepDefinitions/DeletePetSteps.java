@@ -8,6 +8,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 
+/*
+ * Step Definitions for Delete Pet Request
+ */
 public class DeletePetSteps extends BaseStep {
 	private Response response; 
 	public DeletePetSteps(TestContext testContext) {

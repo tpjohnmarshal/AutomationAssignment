@@ -2,6 +2,9 @@ package apiEngine;
 
 import io.restassured.response.Response;
 
+/*
+ * This is a Generic Interface, and used to handle the responses received from server with several data types
+ */
 public interface IRestResponse<T> {
 	public T getBody();
 

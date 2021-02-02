@@ -1,5 +1,8 @@
 package apiEngine.models.requests;
 
+/*
+ * POJO class for Category
+ */
 public class Category {
 
 	public Integer id;

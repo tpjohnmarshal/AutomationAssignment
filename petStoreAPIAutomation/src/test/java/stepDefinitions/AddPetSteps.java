@@ -9,6 +9,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 
+/*
+ * Step Definitions for Add Pet Request
+ */
 public class AddPetSteps extends BaseStep {
 	private Response response;
 	public AddPetSteps(TestContext testContext) {

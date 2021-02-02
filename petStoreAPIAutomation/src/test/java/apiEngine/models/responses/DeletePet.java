@@ -1,5 +1,9 @@
 package apiEngine.models.responses;
 
+
+/*
+ * POJO class for Delete Pet Response
+ */
 public class DeletePet {
 	public String code;
 	public String type;

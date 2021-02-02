@@ -3,6 +3,9 @@ package apiEngine;
 
 import io.restassured.response.Response;
 
+/*
+ * This java class will implement the methods of Generic Interface for smooth handling of responses from various requests
+ */
 public class RestResponse<T> implements IRestResponse<T> {
 	private T data;
 	private Response response;

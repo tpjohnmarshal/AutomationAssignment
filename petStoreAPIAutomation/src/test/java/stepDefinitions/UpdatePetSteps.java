@@ -8,6 +8,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 
+/*
+ * Step Definitions for Update Pet Request
+ */
 public class UpdatePetSteps extends BaseStep {
 	private Response response; 
 	

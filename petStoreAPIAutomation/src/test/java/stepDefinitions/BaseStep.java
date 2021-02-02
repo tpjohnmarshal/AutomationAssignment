@@ -8,7 +8,9 @@ import cucumberContexts.TestContext;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-
+/*
+ * Base Step class to invoke the Test Context and Scenario COntexts
+ */
 public class BaseStep {
 	private EndPoints endPoints;
 	private UpdateEndPoints updateEndPoints;

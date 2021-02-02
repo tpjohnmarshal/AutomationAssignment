@@ -7,6 +7,10 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+/*
+ * This class contains the logic to call end points. 
+ * The constructor will take care of the common steps like request header setting
+ */
 @SuppressWarnings({ "unchecked", "rawtypes" })
 public class EndPoints {
 	private final RequestSpecification request;

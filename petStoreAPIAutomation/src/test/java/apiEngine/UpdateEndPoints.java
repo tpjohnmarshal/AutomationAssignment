@@ -4,6 +4,10 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+/*
+ * This class contains the logic to call update end points. 
+ * The constructor will take care of the common steps like request header setting
+ */
 public class UpdateEndPoints {
 	private final RequestSpecification request;
 

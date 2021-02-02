@@ -5,6 +5,9 @@ import java.util.List;
 import apiEngine.models.requests.Category;
 import apiEngine.models.requests.Tag;
 
+/*
+ * POJO class for Pet
+ */
 public class Pet {
 
 	public Integer id;

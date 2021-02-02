@@ -5,6 +5,10 @@ import java.util.Map;
 
 import enums.Context;
 
+/*
+ * This class contains the logic to setup the Context between scenarios
+ * If scenarios are dependent to execute the steps, then they can use the same context to share data
+ */
 public class ScenarioContext {
 	private Map<String, Object> scenarioContext;
 

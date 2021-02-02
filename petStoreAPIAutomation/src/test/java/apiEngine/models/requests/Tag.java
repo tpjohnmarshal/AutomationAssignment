@@ -1,5 +1,8 @@
 package apiEngine.models.requests;
 
+/*
+ * POJO class for Tag
+ */
 public class Tag {
 
 	public Integer id;

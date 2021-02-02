@@ -9,6 +9,9 @@ import enums.Context;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+/*
+ * Step Definitions for Search Available Pet Request
+ */
 public class SearchAvailablePetsSteps extends BaseStep {
 	public SearchAvailablePetsSteps(TestContext testContext) {
 		super(testContext);

@@ -6,6 +6,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+/*
+ * This java class helps to read the details from configuration properties file
+ * This is a Singleton class. So it ensures the creation of only one instance of a class in the JVM 
+ * and enables a global access to that object. 
+ */
 public class ConfigReader {
 	private Properties properties;
 	private static ConfigReader configReader;

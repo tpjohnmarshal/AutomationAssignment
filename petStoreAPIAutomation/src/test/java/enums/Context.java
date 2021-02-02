@@ -1,5 +1,8 @@
 package enums;
 
+/*
+ * ENUMMM class for all the fixed set of values . This will help to setup the Scenario Context
+ */
 public enum Context {
 	PETS,
     API_KEY,

@@ -1,5 +1,8 @@
 package apiEngine.models.responses;
 
+/*
+ * POJO class for Update Pet response
+ */
 public class UpdatePet {
 	public Integer code;
 	public String type;
