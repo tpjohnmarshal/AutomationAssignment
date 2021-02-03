@@ -1,8 +1,8 @@
-[main] INFO  stepDefinitions.BaseStep  - Executing Search Availabe Pets Test
-[main] INFO  stepDefinitions.BaseStep  - Search Availabe Pet Test Verifified
-[main] INFO  stepDefinitions.BaseStep  - Executing Add Pet Test
-[main] INFO  stepDefinitions.BaseStep  - Add Pet Test Verifified
-[main] INFO  stepDefinitions.BaseStep  - Executing Update Pet Test
-[main] INFO  stepDefinitions.BaseStep  - Pet Updated Successfully
-[main] INFO  stepDefinitions.BaseStep  - Executing Delete Pet Test
-[main] INFO  stepDefinitions.BaseStep  - Pet Deleted Successfully
+03 Feb 2021 16:28:07 [main] INFO  stepDefinitions.BaseStep  - Executing Search Availabe Pets Test
+03 Feb 2021 16:28:09 [main] INFO  stepDefinitions.BaseStep  - Search Availabe Pet Test Verifified
+03 Feb 2021 16:28:10 [main] INFO  stepDefinitions.BaseStep  - Executing Add Pet Test
+03 Feb 2021 16:28:10 [main] INFO  stepDefinitions.BaseStep  - Add Pet Test Verifified
+03 Feb 2021 16:28:10 [main] INFO  stepDefinitions.BaseStep  - Executing Update Pet Test
+03 Feb 2021 16:28:11 [main] INFO  stepDefinitions.BaseStep  - Pet Updated Successfully
+03 Feb 2021 16:28:11 [main] INFO  stepDefinitions.BaseStep  - Executing Delete Pet Test
+03 Feb 2021 16:28:11 [main] INFO  stepDefinitions.BaseStep  - Pet Deleted Successfully
